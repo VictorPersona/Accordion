@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Cards(props) {
+export default function Cards({ question, answer }) {
   const [showValue, setShowValue] = useState(true)
   function toggle() {
     setShowValue((prev) => !prev)
@@ -9,14 +9,12 @@ export default function Cards(props) {
   return (
     <div className="cardContainer">
       <div className="textContainer">
-        <div className="question">{props.question}</div>
-        <div className={`answer ${showValue ? 'hide' : ''}`}>
-          {props.answer}
-        </div>
+        <div className="question">{question}</div>
+        <div className={`answer ${showValue ? 'hide' : ''}`}>{answer}</div>
       </div>
 
       <button className="show" onClick={toggle}>
-        +
+        {showValue ? '+' : '-'}
       </button>
     </div>
   )

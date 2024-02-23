@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Is this a good product?",
+    "info": "Yes, it is one of our best selling products. This is the most reliable product you can find online."
+  },
+  {
+    "id": 2,
+    "title": "What are the benefits of using this service?",
+    "info": "Our service offers numerous benefits, including convenience, affordability, and reliability. With our service, you can save time and money while enjoying top-notch quality."
+  },
+  {
+    "id": 3,
+    "title": "How long does shipping usually take?",
+    "info": "Shipping times vary depending on your location and chosen shipping method. However, most orders are delivered within 3-5 business days."
+  },
+  {
+    "id": 4,
+    "title": "Are there any discounts available?",
+    "info": "Yes, we frequently offer discounts and promotions to our customers. Be sure to check our website regularly or sign up for our newsletter to stay updated on the latest deals."
+  },
+  {
+    "id": 5,
+    "title": "Can I return the product if I'm not satisfied?",
+    "info": "Yes, we offer a hassle-free return policy. If you're not completely satisfied with your purchase, simply return it within 30 days for a full refund."
+  }
+]

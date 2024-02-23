@@ -8,23 +8,34 @@ body {
 
 .Container {
   background-color: cadetblue;
-  height: 350px;
+  max-height: 600px;
   width: 600px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  overflow: auto;
+  align-items: center;
+}
+
+.mainHeading {
+  margin-bottom: 20px;
 }
 
 .cardContainer {
   background-color: pink;
   width: 500px;
-  height: 60px;
+  height: 100px;
+  max-height: 200px;
   margin: 0 auto;
-  border-radius: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: auto;
+  margin-bottom: 20px;
 }
 
 .textContainer {
@@ -34,6 +45,15 @@ body {
   margin-right: 25px;
 }
 
+.answer {
+  padding-right: 15px;
+  overflow-y: auto;
+  max-height: 150px;
+}
 .answer.hide {
   display: none;
+}
+
+.question {
+  font-weight: bold;
 }
