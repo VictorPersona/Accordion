@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  background-color: cadetblue;
+  height: 350px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardContainer {
+  background-color: pink;
+  width: 500px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textContainer {
+  margin-left: 25px;
+}
+.show {
+  margin-right: 25px;
+}
+
+.answer.hide {
+  display: none;
+}
